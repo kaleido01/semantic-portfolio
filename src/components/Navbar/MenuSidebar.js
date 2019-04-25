@@ -34,6 +34,10 @@ class MenuSidebar extends Component {
 					visible={sidebar}
 					width="thin">
 					<Menu.Menu>
+						<Menu.Item as={NavLink} exact to="/">
+							<Icon name="home" vertical />
+							Home
+						</Menu.Item>
 						<Menu.Item as={NavLink} to="/profile">
 							<Icon name="user" vertical />
 							Profile
@@ -50,7 +54,7 @@ class MenuSidebar extends Component {
 							<Icon name="cloud upload" vertical />
 							Works
 						</Menu.Item>
-						<Menu.Item as={NavLink} to="/connects">
+						<Menu.Item as={NavLink} to="/contact">
 							<Icon name="mail" vertical />
 							Contact
 						</Menu.Item>

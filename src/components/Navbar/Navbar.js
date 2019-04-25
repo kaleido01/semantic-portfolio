@@ -32,6 +32,7 @@ class Navbar extends Component {
 						</Menu.Item>
 						<Menu.Menu position="right" className="toolbarNavigationItems">
 							<Menu.Item as={NavLink} exact to="/" name="home" />
+							<Menu.Item as={NavLink} to="/profile" name="profile" />
 							<Menu.Item as={NavLink} to="/languages" name="languages" />
 							<Menu.Item as={NavLink} to="/skills" name="skills" />
 							<Menu.Item as={NavLink} to="/works" name="works" />
