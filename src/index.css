@@ -7,6 +7,10 @@
 	margin: 1em 0 !important;
 }
 
+.languages__icon {
+	padding: 0.5em;
+}
+
 .ui.fixed.menu {
 	background-image: linear-gradient(
 		135deg,
