@@ -17,7 +17,9 @@ class Homepage extends Component {
 							<Header as="h2">Welcome to Myhomepage</Header>
 						</Segment>
 						<Segment attached>
-							プログラミング言語について学習を進めてきたのでついにポートフォリオなるものを作りました。他にもTwitter,ブログなどやっているのでそちらも合わせてみていただければと思います。
+							プログラミング言語について学習を進めてきたのでついにポートフォリオなるものを作りました。
+							他にもTwitter,ブログなどやっているのでそちらも合わせてみていただければと思います。
+							このサイトはすべてReact及びSemantic-UIを使ってコーディングしています。
 						</Segment>
 					</Grid.Column>
 				</Grid.Row>
