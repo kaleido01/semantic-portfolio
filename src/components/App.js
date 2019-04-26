@@ -2,7 +2,6 @@ import React, { Component } from "react";
 
 import { Route, Switch } from "react-router-dom";
 
-import { Container } from "semantic-ui-react";
 import Navbar from "./Navbar/Navbar";
 import Profile from "./Profile";
 import Homepage from "./Homepage";

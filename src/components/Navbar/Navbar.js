@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Link, NavLink } from "react-router-dom";
 import avatar from "../../static/ハリネズミ.jpg";
 
-import { Menu, Image, Icon, Segment, Container } from "semantic-ui-react";
+import { Menu, Image, Container } from "semantic-ui-react";
 
 import MenuSidebar from "./MenuSidebar";
 
@@ -14,7 +14,6 @@ class Navbar extends Component {
 	};
 
 	render() {
-		const { activeItem } = this.state;
 		return (
 			<React.Fragment>
 				<Menu inverted fixed="top">
