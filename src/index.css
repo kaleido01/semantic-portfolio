@@ -14,13 +14,23 @@
 
 	font-family: "Segoe Print" !important;
 }
+
+.twitter__sh .toppage {
+	margin-top: 150px !important;
+}
+
 /* タブレット以下でのcss */
 @media (max-width: 768px) {
 	.toolbarNavigationItems {
 		display: none !important;
 	}
+
+	.toppage {
+		margin-top: 50px !important;
+	}
 }
 
+/* デスクトップ版でのcss */
 @media (min-width: 768px) {
 	.toolbar {
 		display: none !important;
