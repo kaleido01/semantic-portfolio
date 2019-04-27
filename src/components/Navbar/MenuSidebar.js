@@ -34,27 +34,27 @@ class MenuSidebar extends Component {
 					visible={sidebar}
 					width="thin">
 					<Menu.Menu>
-						<Menu.Item as={NavLink} exact to="/">
+						<Menu.Item as={NavLink} exact to="/semantic-portfolio/">
 							<Icon name="home" vertical />
 							Home
 						</Menu.Item>
-						<Menu.Item as={NavLink} to="/profile">
+						<Menu.Item as={NavLink} to="/semantic-portfolio/profile">
 							<Icon name="user" vertical />
 							Profile
 						</Menu.Item>
-						<Menu.Item as={NavLink} to="/languages">
+						<Menu.Item as={NavLink} to="/semantic-portfolio/languages">
 							<Icon name="sitemap" vertical />
 							Languages
 						</Menu.Item>
-						<Menu.Item as={NavLink} to="/skills">
+						<Menu.Item as={NavLink} to="/semantic-portfolio/skills">
 							<Icon name="code" vertical />
 							Skills
 						</Menu.Item>
-						<Menu.Item as={NavLink} to="/works">
+						<Menu.Item as={NavLink} to="/semantic-portfolio/works">
 							<Icon name="cloud upload" vertical />
 							Works
 						</Menu.Item>
-						<Menu.Item as={NavLink} to="/contact">
+						<Menu.Item as={NavLink} to="/semantic-portfolio/contact">
 							<Icon name="mail" vertical />
 							Contact
 						</Menu.Item>

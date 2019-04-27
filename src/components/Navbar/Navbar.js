@@ -28,12 +28,28 @@ class Navbar extends Component {
 					Kaleido's Portfolio
 				</Menu.Item>
 				<Menu.Menu position="right" className="toolbarNavigationItems">
-					<Menu.Item as={NavLink} exact to="/" name="home" />
-					<Menu.Item as={NavLink} to="/profile" name="profile" />
-					<Menu.Item as={NavLink} to="/languages" name="languages" />
-					<Menu.Item as={NavLink} to="/skills" name="skills" />
-					<Menu.Item as={NavLink} to="/works" name="works" />
-					<Menu.Item as={NavLink} to="/contact" name="contact" />
+					<Menu.Item as={NavLink} exact to="/semantic-portfolio/" name="home" />
+					<Menu.Item
+						as={NavLink}
+						to="/semantic-portfolio/profile"
+						name="profile"
+					/>
+					<Menu.Item
+						as={NavLink}
+						to="/semantic-portfolio/languages"
+						name="languages"
+					/>
+					<Menu.Item
+						as={NavLink}
+						to="/semantic-portfolio/skills"
+						name="skills"
+					/>
+					<Menu.Item as={NavLink} to="/semantic-portfolio/works" name="works" />
+					<Menu.Item
+						as={NavLink}
+						to="/semantic-portfolio/contact"
+						name="contact"
+					/>
 				</Menu.Menu>
 				<MenuSidebar />
 			</Menu>
