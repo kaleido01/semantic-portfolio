@@ -11,7 +11,7 @@
 		"semantic-ui-css": "^2.4.1",
 		"semantic-ui-react": "^0.86.0"
 	},
-	"homepage": "https://kaleido01.github.io/semantic-portfolio",
+	"homepage": "https://kaleido01.github.io/semantic-portfolio/",
 	"scripts": {
 		"start": "react-scripts start",
 		"build": "react-scripts build",

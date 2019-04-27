@@ -140,7 +140,7 @@ class Skills extends Component {
 							</Header>
 						</Divider>
 						<p>
-							Worksにおいてあるアプリの認証部分で使用済み。基本的なオンラインオフラインの扱いと認証部分についてはできます。
+							Worksにおいてあるアプリの認証部分で使用済み。基本的なオンラインオフラインの扱いと認証部分についてはできます
 						</p>
 					</Segment>
 				</Grid.Column>
