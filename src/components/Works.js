@@ -5,7 +5,6 @@ import {
 	Message,
 	Segment,
 	Label,
-	Dimmer,
 	Header,
 	Divider,
 	Icon,

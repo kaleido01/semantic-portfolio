@@ -26,6 +26,10 @@
 	padding-top: 150px !important;
 }
 
+.connect__button {
+	margin: 0.5em !important;
+}
+
 /* タブレット以下でのcss */
 @media (max-width: 768px) {
 	.toolbarNavigationItems {
