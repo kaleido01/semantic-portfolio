@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6dadf664757671dd4522c189f6a92ab6",
+    "revision": "9f92450c68405022804b10fa2f5509e1",
     "url": "/semantic-portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/semantic-portfolio/static/css/2.eb81ec39.chunk.css"
   },
   {
-    "revision": "41159a912405964bb8ca",
+    "revision": "85e950ef4adbbdaf305f",
     "url": "/semantic-portfolio/static/css/main.4bc25067.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/semantic-portfolio/static/js/2.229cab7a.chunk.js"
   },
   {
-    "revision": "41159a912405964bb8ca",
-    "url": "/semantic-portfolio/static/js/main.dd614bb7.chunk.js"
+    "revision": "85e950ef4adbbdaf305f",
+    "url": "/semantic-portfolio/static/js/main.0d960021.chunk.js"
   },
   {
     "revision": "a65a432edc8b06107e90",
