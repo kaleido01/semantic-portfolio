@@ -17,12 +17,12 @@ class App extends Component {
 				<Navbar />
 				<Switch>
 					<div className="App">
-						<Route exact path="/" component={Homepage} />
-						<Route path="/profile" component={Profile} />
-						<Route path="/languages" component={Languages} />
-						<Route path="/skills" component={Skills} />
-						<Route path="/works" component={Works} />
-						<Route path="/contact" component={Contact} />
+						<Route exact path="/semantic-portfolio" component={Homepage} />
+						<Route path="/semantic-portfolio/profile" component={Profile} />
+						<Route path="/semantic-portfolio/languages" component={Languages} />
+						<Route path="/semantic-portfolio/skills" component={Skills} />
+						<Route path="/semantic-portfolio/works" component={Works} />
+						<Route path="/semantic-portfolio/contact" component={Contact} />
 					</div>
 				</Switch>
 			</div>
