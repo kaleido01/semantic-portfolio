@@ -32,6 +32,10 @@
 		display: none !important;
 	}
 
+	.navTitle {
+		text-align: center !important;
+	}
+
 	.toppage {
 		padding-top: 50px !important;
 	}

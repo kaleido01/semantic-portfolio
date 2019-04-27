@@ -15,32 +15,28 @@ class Navbar extends Component {
 
 	render() {
 		return (
-			<React.Fragment>
-				<Menu inverted fixed="top">
-					<Container>
-						<Menu.Item
-							as={Link}
-							to="/"
-							name="homepage"
-							header
-							style={{
-								marginLeft: "0.5em"
-							}}>
-							<Image avatar spaced="right" src={avatar} />
-							Kaleido's Portfolio
-						</Menu.Item>
-						<Menu.Menu position="right" className="toolbarNavigationItems">
-							<Menu.Item as={NavLink} exact to="/" name="home" />
-							<Menu.Item as={NavLink} to="/profile" name="profile" />
-							<Menu.Item as={NavLink} to="/languages" name="languages" />
-							<Menu.Item as={NavLink} to="/skills" name="skills" />
-							<Menu.Item as={NavLink} to="/works" name="works" />
-							<Menu.Item as={NavLink} to="/contact" name="contact" />
-						</Menu.Menu>
-						<MenuSidebar />
-					</Container>
-				</Menu>
-			</React.Fragment>
+			<Menu inverted fixed="top">
+				<Menu.Item
+					as={Link}
+					to="/"
+					name="homepage"
+					header
+					style={{
+						marginLeft: "0.5em"
+					}}>
+					<Image avatar spaced="right" src={avatar} />
+					Kaleido's Portfolio
+				</Menu.Item>
+				<Menu.Menu position="right" className="toolbarNavigationItems">
+					<Menu.Item as={NavLink} exact to="/" name="home" />
+					<Menu.Item as={NavLink} to="/profile" name="profile" />
+					<Menu.Item as={NavLink} to="/languages" name="languages" />
+					<Menu.Item as={NavLink} to="/skills" name="skills" />
+					<Menu.Item as={NavLink} to="/works" name="works" />
+					<Menu.Item as={NavLink} to="/contact" name="contact" />
+				</Menu.Menu>
+				<MenuSidebar />
+			</Menu>
 		);
 	}
 }
