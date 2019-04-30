@@ -18,7 +18,7 @@ class Navbar extends Component {
 			<Menu inverted fixed="top">
 				<Menu.Item
 					as={Link}
-					to="/"
+					to="/semantic-portfolio/"
 					name="homepage"
 					header
 					style={{
