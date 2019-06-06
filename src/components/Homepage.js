@@ -14,12 +14,11 @@ class Homepage extends Component {
 							color="teal"
 							attached="top"
 							style={{ border: "none" }}>
-							<Header as="h2">Welcome to Myhomepage</Header>
+							<Header as="h2">Welcome to MyPortfolio</Header>
 						</Segment>
 						<Segment attached>
-							プログラミング言語について学習を進めてきたのでついにポートフォリオなるものを作りました。
-							他にもTwitter,ブログなどやっているのでそちらも合わせてみていただければと思います。
-							このサイトはすべてReact及びSemantic-UIを使ってコーディングしています。
+							プログラミング学習して4ヶ月Webアプリのデプロイまで漕ぎつけたので一新いたしました。
+							Worksには自分の自作Webアプリを載せているで手っ取り早く見たい人はそこを見ていただくのが一番早いと思います。
 						</Segment>
 					</Grid.Column>
 				</Grid.Row>
@@ -31,11 +30,10 @@ class Homepage extends Component {
 							attached="top"
 							style={{ border: "none" }}
 							textAlign="center">
-							<Header as="h2">目的</Header>
+							<Header as="h2">ポートフォリオ作成目的</Header>
 						</Segment>
 						<Segment attached="bottom">
-							夏休み期間中にPythonまたはReact関係のインターンに参加したいと思っています。
-							そこでポートフォリオなるものを作成し、今後自作アプリや簡単なスキルなどを見られるものを用意しておくことでより円滑に進めるためです。
+							自分がどういったスキルを保有しているか出来ることなどをまとめておいた方がインターンの活動や自分を知ってもらうために一番いいと考えたので作成いたしました。
 						</Segment>
 					</Grid.Column>
 				</Grid.Row>

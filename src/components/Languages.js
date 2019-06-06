@@ -5,7 +5,8 @@ import {
 	Header,
 	Icon,
 	Divider,
-	Rating
+	Rating,
+	Label
 } from "semantic-ui-react";
 
 class languages extends Component {
@@ -44,12 +45,17 @@ class languages extends Component {
 					</Segment>
 				</Grid.Column>
 				<Grid.Column width={5}>
-					<Segment attached="top" textAlign="center">
+					<Segment
+						attached="top"
+						textAlign="center"
+						style={{
+							background: "linear-gradient(45deg, #16f9fe 30%, #888efd 90%)"
+						}}>
 						<Header as="h3" textAlign="center">
 							<p>JavaScript</p>
 							<Rating
 								maxRating={5}
-								defaultRating={4}
+								defaultRating={5}
 								icon="star"
 								size="small"
 								disabled
@@ -57,6 +63,11 @@ class languages extends Component {
 							<div className="languages__icon">
 								<Icon name="js" color="orange" size="big" />
 							</div>
+							{/* <Label
+								ribbon="right"
+								color="orange"
+								style={{ position: "relative", left: "160px" }}
+							/> */}
 						</Header>
 						<Divider horizontal>
 							<Header as="h4">
@@ -68,7 +79,7 @@ class languages extends Component {
 							就職先の社員さんがフロントエンドのデザインで使っているということで最初は軽く始めようとおもったところしっくりはまり、Node.jsと一緒に使うことでアプリが作れることを知りました。
 						</p>
 						<p>
-							フレームワークのReactを中心にアプリをある程度作れる段階まで成長しました。
+							フレームワークのReactを中心に自作アプリをある程度作れる段階まで成長しました。
 						</p>
 					</Segment>
 				</Grid.Column>
@@ -106,7 +117,7 @@ class languages extends Component {
 				</Grid.Column>
 				<Grid.Column width={5}>
 					<Segment attached="top" textAlign="center">
-						<Header as="h3" textAlign="center">
+						<Header as="h3" textAlig n="center">
 							<p>Java</p>
 							<Rating
 								maxRating={5}

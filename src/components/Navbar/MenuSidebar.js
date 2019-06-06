@@ -34,27 +34,46 @@ class MenuSidebar extends Component {
 					visible={sidebar}
 					width="thin">
 					<Menu.Menu>
-						<Menu.Item as={NavLink} exact to="/semantic-portfolio/">
+						<Menu.Item
+							as={NavLink}
+							exact
+							to="/semantic-portfolio/"
+							onClick={this.closeSidebar}>
 							<Icon name="home" vertical />
 							Home
 						</Menu.Item>
-						<Menu.Item as={NavLink} to="/semantic-portfolio/profile">
+						<Menu.Item
+							as={NavLink}
+							to="/semantic-portfolio/profile"
+							onClick={this.closeSidebar}>
 							<Icon name="user" vertical />
 							Profile
 						</Menu.Item>
-						<Menu.Item as={NavLink} to="/semantic-portfolio/languages">
+						<Menu.Item
+							as={NavLink}
+							to="/semantic-portfolio/languages"
+							onClick={this.closeSidebar}>
 							<Icon name="sitemap" vertical />
 							Languages
 						</Menu.Item>
-						<Menu.Item as={NavLink} to="/semantic-portfolio/skills">
+						<Menu.Item
+							as={NavLink}
+							to="/semantic-portfolio/skills"
+							onClick={this.closeSidebar}>
 							<Icon name="code" vertical />
 							Skills
 						</Menu.Item>
-						<Menu.Item as={NavLink} to="/semantic-portfolio/works">
+						<Menu.Item
+							as={NavLink}
+							to="/semantic-portfolio/works"
+							onClick={this.closeSidebar}>
 							<Icon name="cloud upload" vertical />
 							Works
 						</Menu.Item>
-						<Menu.Item as={NavLink} to="/semantic-portfolio/contact">
+						<Menu.Item
+							as={NavLink}
+							to="/semantic-portfolio/contact"
+							onClick={this.closeSidebar}>
 							<Icon name="mail" vertical />
 							Contact
 						</Menu.Item>
