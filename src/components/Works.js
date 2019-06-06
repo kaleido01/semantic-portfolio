@@ -34,6 +34,63 @@ class Works extends Component {
 							tertiary
 							style={{ border: "none" }}>
 							<Label as="a" color="orange" ribbon="right">
+								React & Node.js & Express & MongoDB & GraphQL
+							</Label>
+							<span>
+								<Header as="h2" textAlign="center" color="white" inverted>
+									Manehabi
+								</Header>
+							</span>
+						</Segment>
+						<Segment attached textAlign="center">
+							<Divider horizontal>
+								<Header as="h4">
+									<Icon name="tag" />
+									使ったスキル
+								</Header>
+							</Divider>
+							<p>React</p>
+							<p>Context</p>
+							<p>Hooks</p>
+							<p>Semanti-Ui-css</p>
+							<p>Semanti-Ui-React</p>
+							<p>Node.js</p>
+							<p>MongoDB(mongoose)</p>
+							<p>GraphQL(Apollo)</p>
+							<p>HighCharts(グラフ作成)</p>
+							<p>moment(日付管理)</p>
+							<Divider horizontal>
+								<Header as="h4">
+									<Icon name="comment" />
+									コンテンツ
+								</Header>
+							</Divider>
+							完全オリジナルの始めてのWebアプリです。4ヶ月で学んだことを全て積み込みました。基本的な認証からState管理、データベース管理なども含めています。
+							内容は皆で習慣を共有していくアプリです。
+							日々の積み重ねを記録して誰でも見れる状態になっていてグラフ化されるので可視化もできます。
+							まだ開発途中のWebアプリですが、今後機能の追加を予定しています。
+						</Segment>
+						<Segment attached="bottom" textAlign="center">
+							<Button
+								as="a"
+								href="https://manehabi.herokuapp.com/"
+								color="blue"
+								target="_brank">
+								<Icon name="checkmark" />
+								webアプリをチェック
+							</Button>
+						</Segment>
+					</Segment.Group>
+				</Grid.Column>
+				<Grid.Column width={9}>
+					<Segment.Group raised>
+						<Segment
+							attached="top"
+							color="green"
+							inverted
+							tertiary
+							style={{ border: "none" }}>
+							<Label as="a" color="orange" ribbon="right">
 								React & Redux & Firebase
 							</Label>
 							<span>

@@ -18,7 +18,7 @@ class Skills extends Component {
 							<p>React ＆ Redux</p>
 							<Rating
 								maxRating={5}
-								defaultRating={4}
+								defaultRating={5}
 								icon="star"
 								size="small"
 								disabled
@@ -35,7 +35,8 @@ class Skills extends Component {
 						</Divider>
 						<p>
 							jsのフレームワークとして勉強しています。Udemy中心にRedux及び最新のContext,Hooksも勉強してます。
-							アプリは既に何個か動画見ながら作っているので基本的な部分については問題ないと思います。一番勉強してる言語
+							アプリは既に何個か動画見ながら作っているので基本的な部分については問題ないと思います。
+							一番勉強してる言語でつい最近完全オリジナルでwebアプリDeployしました。
 						</p>
 					</Segment>
 				</Grid.Column>
@@ -45,7 +46,7 @@ class Skills extends Component {
 							<p>Node.js</p>
 							<Rating
 								maxRating={5}
-								defaultRating={3}
+								defaultRating={5}
 								icon="star"
 								size="small"
 								disabled
@@ -61,7 +62,9 @@ class Skills extends Component {
 							</Header>
 						</Divider>
 						<p>
-							バックエンドとして使用しています。React+Node.jsでMongodb,graphqlを使用する際に使っています。
+							バックエンドとして使用しています。一応Node.js単体でejsファイルでのWebアプリを作ったこともあります。
+							基本的にはReact+Node.jsでMongodb,graphqlを使用する際に使っています。
+							validationやauthenticated,Routing等も扱ったことがあります。
 						</p>
 					</Segment>
 				</Grid.Column>
@@ -71,7 +74,7 @@ class Skills extends Component {
 							<p>Mongodb ＆ Graphql</p>
 							<Rating
 								maxRating={5}
-								defaultRating={3}
+								defaultRating={5}
 								icon="star"
 								size="small"
 								disabled
@@ -87,7 +90,8 @@ class Skills extends Component {
 							</Header>
 						</Divider>
 						<p>
-							Reactでアプリ制作する際のDBは主にこの二つ使っています。基本的な部分については動画で学習済みです。GraphQlも基本的なquery,mutation
+							Reactでアプリ制作する際のDBは主にこの二つ使っています。自作Webアプリで、MongoDBにはmongoose,
+							GraphQLにはApolloserver,ApolloClient開発しています。
 							等をNode.jsと組み合わせて使うことが出来ます。
 						</p>
 					</Segment>
